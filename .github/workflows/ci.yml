@@ -5,9 +5,6 @@ jobs:
   type-check:
     name: Type Check
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./apps/frontend
     steps:
       - name: Checkout
         uses: actions/checkout@v3
